@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* @ NAVBAR */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 4px solid rgb(71, 27, 167);
+  padding: 1.5rem;
+}
+
+a.active {
+  color: white;
+  background-color: rgb(71, 27, 167);
+}

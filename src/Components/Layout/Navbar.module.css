@@ -1,0 +1,23 @@
+.logo {
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    height: 200px;
+    z-index: -1;
+    bottom: -82px;
+    left: -31px;
+}
+
+.linklist a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    margin-right: 1rem;
+    padding: 1.7rem;
+}
+
+
+.linklist a.active {
+    background-color: rgb(71, 27, 167);
+}

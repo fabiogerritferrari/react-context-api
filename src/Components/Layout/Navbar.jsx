@@ -1,5 +1,5 @@
 import styles from './Navbar.module.css'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 export default function Navbar() {
 
@@ -14,6 +14,7 @@ export default function Navbar() {
                 <NavLink to='/'>Home</NavLink>
                 <NavLink to='/Product'>Product</NavLink>
                 <NavLink to='/About'>About us</NavLink>
+                <Link type='button'>Budget mode </Link>
             </ul>
         </>
     )

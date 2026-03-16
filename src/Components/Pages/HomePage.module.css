@@ -1,0 +1,43 @@
+.jumbotron {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(140, 0, 255);
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+.jumbotron span {
+    margin: 1rem 10rem;
+    font-size: medium;
+    color: white;
+}
+
+
+.buttonLIst {
+    margin-top: 2rem;
+    display: flex;
+    text-decoration: none;
+}
+
+.buttonLIst a {
+    text-decoration: none;
+    padding: 1rem;
+    margin-right: 1rem;
+    border: 2px transparent;
+    border-radius: 30px;
+    background-color: rgb(71, 27, 167);
+    color: white;
+    font-size: large;
+    font-weight: 500;
+}
+
+.buttonLIst a:hover {
+    color: rgb(71, 27, 167);
+    background-color: white;
+}

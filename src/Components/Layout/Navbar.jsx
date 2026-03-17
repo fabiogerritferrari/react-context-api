@@ -12,8 +12,8 @@ export default function Navbar() {
             </figure>
             <ul className={linklist}>
                 <NavLink to='/'>Home</NavLink>
-                <NavLink to='/Product'>Product</NavLink>
-                <NavLink to='/About'>About us</NavLink>
+                <NavLink to='/product'>Product</NavLink>
+                <NavLink to='/about'>About us</NavLink>
                 <Link type='button'>Budget mode </Link>
             </ul>
         </>

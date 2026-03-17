@@ -11,6 +11,18 @@
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
+
+.bgPurple {
+  background-color: rgb(71, 27, 167);
+}
+
+.clPurple {
+  color: rgb(71, 27, 167);
+}
+
 /* @ NAVBAR */
 
 header {
@@ -23,4 +35,52 @@ header {
 header a.active {
   color: white;
   background-color: rgb(71, 27, 167);
+}
+
+/* @ Product Card */
+
+.card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border: 6px solid rgb(71, 27, 167);
+  min-height: 650px;
+  justify-content: space-between;
+  border-radius: 25px;
+}
+
+.card span {
+  background-color: goldenrod;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 1rem;
+  border: 1px transparent;
+  border-radius: 25px;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.card:hover span {
+  filter: brightness(85%);
+}
+
+.card img {
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+  padding: 1rem;
+}
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card-description h2 {
+  color: rgb(0, 0, 177);
 }

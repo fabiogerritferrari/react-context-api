@@ -1,0 +1,14 @@
+.singleCardSection {
+    margin-top: 2rem;
+}
+
+.singleCardSection div:hover {
+    transform: none;
+}
+
+.singleCardSection div img {
+    height: auto;
+    width: auto;
+    object-fit: contain;
+    align-self: center;
+}
